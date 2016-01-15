@@ -1,6 +1,11 @@
-''' tsp nearest-neighbor plus 2-opt implementation
-        Graph class given vertex list can construct an approximate tsp tour   
-        works with Python 3.4.3 interpreter
+''' 
+tsp nearest-neighbor plus 2-opt implementation
+
+An approximation algorithm for the TSP optimization problem. Based on a project
+by Elliot Bates, Matthew Meyn and Marco Zamora. Tested with python 3.4.3. 
+Makes use of Andrew Harrington's modification of John Zelle's graphics library.
+
+Graph class given vertex list can construct an approximate tsp tour   
 '''
 
 import math

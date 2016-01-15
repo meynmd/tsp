@@ -1,3 +1,15 @@
+'''
+tsp.py
+
+An approximation algorithm for the TSP optimization problem. Based on a project
+by Elliot Bates, Matthew Meyn and Marco Zamora. Tested with python 3.4.3. 
+Makes use of Andrew Harrington's modification of John Zelle's graphics library.
+
+tsp.py is a python 3 script that should be given one argument: the name of the
+problem file, which should be located in the directory problems/ and should 
+contain a list in the form 
+'''
+
 import vertex
 import graph
 from graphics import *
